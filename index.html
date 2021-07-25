@@ -4,12 +4,11 @@ layout: default
 
 <div class="wrapper">
   <div class="container">
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=3674FF&height=300&section=header&text=passio84ever&fontSize=70&fontColor=ffffff"/>
     <div class="post-list">
       <div class="posts">
         {% for post in paginator.posts %}
           <a href="{{ post.url }}" class="post-summary">
-            <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" title="{{ post.title }}">
+            <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" title="{{ post.title }}" width="630" height="330" style="border-radius:30px">
             <div class="post-date">
               {{ post.date | date_to_string }}
             </div>
