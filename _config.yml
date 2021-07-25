@@ -1,0 +1,10 @@
+highlighter: rouge
+paginate: 20
+paginate_path: "/page/page:num/"
+markdown: kramdown
+host: 0.0.0.0
+gems: [jekyll-paginate]
+home_url: "https://jkty2002.github.io"
+baseurl: ""
+representing_image: ""
+future: true
